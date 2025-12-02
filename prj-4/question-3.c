@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(){
+void main(){
 	int i,j,k;
 	for(i=5;i>=1;i--){
 		for(k=1;k<i;k++){
@@ -12,4 +12,5 @@ int main(){
 		printf("\n");
 	}
 }
+
 
