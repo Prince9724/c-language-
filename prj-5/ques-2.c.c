@@ -19,12 +19,18 @@ void main(){
 		}
 		printf("\n");
 	}
-	printf("transpose of array \n");
-	for(i=0;i<c;i++){
-		for(j=0;j<r;j++){
-			printf("  %d ",a[j][i]);
+	int max = a[0][0];
+	for(i=0;i<r;i++){
+		for(j=0;j<c;j++){
+			
+			if( a[i][j]>max){
+				max=a[i][j];
+			}
+			
 		}
 		printf("\n");
 	}
+	printf(" Largest element is : %d ",max);
+	
 	
 }
