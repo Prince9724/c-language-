@@ -9,7 +9,7 @@ void main(){
         scanf("%d", &arr[i]);
     }
     printf("\n");
-    ptr=arr;//arr ki value ptr me store 
+    ptr=arr;// arr ki adress! 
     for(i=0;i<n;i++){
     	printf("%d ",(*ptr)*(*ptr));
     	ptr++;//ptr++ 1-2-3;
@@ -17,3 +17,4 @@ void main(){
 	  
 	
 }
+
